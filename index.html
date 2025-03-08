@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malenia</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+<audio id="backgroundMusic" loop>
+    <source src="./audio/background.mp3" type="audio/mp3">
+</audio>
+
+<button id="toggleMusicButton" style="position: fixed; bottom: 20px; right: 20px; font-size: 24px; background: none; border: none; cursor: pointer;">
+    🔊
+</button>
+
+<div id="introContainer">
+    <video id="introVideo" autoplay playsinline muted>
+    <source src="./videos/intro.mp4" type="video/mp4">
+</video>
+</div>
+
+<div id="backgroundVideoContainer" class="hidden">
+    <video id="backgroundVideo" autoplay playsinline loop muted>
+    <source src="./videos/background.mp4" type="video/mp4">
+</video>
+</div>
+
+<div id="mainContent" class="hidden">
+    <h1>Chào, mình là Minh đây là sản phẩm đầu tiên mình tạo, mình sẽ còn cập nhật trang web này tiếp, mong mọi người thích nó</h1>
+    <p>Liên hệ với mình qua:</p>
+    <div class="social-links">
+        <a href="https://www.youtube.com/@siogaming6123" target="_blank" class="youtube">
+            <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100088478701117" target="_blank" class="facebook">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://github.com/Malenialord" target="_blank" class="github">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+
+</div>
+
+<script src="./static/js/script.js"></script>
+</body>
+</html>
