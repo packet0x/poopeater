@@ -94,3 +94,36 @@ input, textarea {
 input::placeholder, textarea::placeholder {
     color: rgba(255, 255, 255, 0.7);
 }
+
+#musicList {
+    list-style: none;
+    padding: 0;
+}
+
+#musicList li {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    transition: color 0.3s, background 0.3s;
+    border-radius: 5px;
+    color: white; /* Mặc định màu trắng */
+}
+
+#musicList .default-music {
+    font-weight: bold;
+    color: #ffcc00 !important;
+}
+
+
+#musicList .playing {
+    color: #00ccff !important; /* Màu xanh dương */
+    font-weight: bold;
+}
+
+}
+
+
+#musicList .default-music {
+    font-weight: bold;
+    color: #ffcc00;
+}
