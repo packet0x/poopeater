@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     document.body.addEventListener("click", function enableAudio() {
         userInteracted = true;
-        introVideo.muted = false; // Bật âm thanh của video intro
-        document.body.removeEventListener("click", enableAudio); // Chỉ chạy một lần
+        introVideo.muted = false; 
+        document.body.removeEventListener("click", enableAudio); 
     });
    
     introVideo.addEventListener("ended", function () {
